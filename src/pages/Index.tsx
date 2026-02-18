@@ -10,22 +10,22 @@ import ParticleBackground from "@/components/ParticleBackground";
 import CursorGlow from "@/components/CursorGlow";
 
 const Index = () => {
-  return (
-    <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
-      <ParticleBackground />
-      <CursorGlow />
-      <Navbar />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <ProjectsSection />
-        <AchievementsSection />
-        <ContactSection />
-      </main>
-    </div>
-  );
+    return (
+        <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
+            <ParticleBackground />
+            <CursorGlow />
+            <Navbar />
+            <main>
+                <HeroSection />
+                <AboutSection />
+                <SkillsSection />
+                <ExperienceSection />
+                <ProjectsSection />
+                <AchievementsSection />
+                <ContactSection />
+            </main>
+        </div>
+    );
 };
 
 export default Index;
